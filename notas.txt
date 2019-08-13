@@ -1,0 +1,10 @@
+docker run --name mongodb -p 27017:27017 -d mongodb
+--name : nome container
+-p : roteamento de portas 
+-d : container
+docker ps -a : todos os containers
+docker start {nome} : iniciar container inativo
+
+yarn add --dev : save dev
+
+packages: express / nodemon / moongose
