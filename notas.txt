@@ -7,4 +7,4 @@ docker start {nome} : iniciar container inativo
 
 yarn add --dev : save dev
 
-packages: express / nodemon / moongose
+packages: express / nodemon / moongose / require-dir (require dos models)
