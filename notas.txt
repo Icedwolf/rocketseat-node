@@ -1,6 +1,6 @@
 docker run --name mongodb -p 27017:27017 -d mongodb
 --name : nome container
--p : roteamento de portas 
+-p : roteamento de portas
 -d : container
 docker ps -a : todos os containers
 docker start {nome} : iniciar container inativo
@@ -8,3 +8,5 @@ docker start {nome} : iniciar container inativo
 yarn add --dev : save dev
 
 packages: express / nodemon / moongose / require-dir (require dos models)
+mongoose-paginate paginação para mongoose
+cors = Cross-Origin Resource Sharing - acesso externo a API
